@@ -45,10 +45,14 @@ body {
     position: relative;
     top: 40%;
 
-    font-size: 58px;
+    font-size: 55px;
     font-weight: bold;
     font-family: Arial;
     text-decoration: none;
+}
+
+.category img {
+    display: none;
 }
 
 /*Fragen*/
@@ -117,9 +121,10 @@ body {
     align-content: center;
 }
 
-.answer:hover {
-    border: 6px solid orange;
-    box-shadow: 6px 6px 5px -4px orange, -6px -6px 5px -4px orange, 6px -6px 5px -4px orange, -6px 6px 5px -4px orange;
+#imageQuestion3 {
+    padding: 10px;
 
-    height: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
