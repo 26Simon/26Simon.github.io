@@ -33,3 +33,8 @@ function solveTeamEllwangen(Id) {
     element.firstElementChild.style.color='orange';
     element.firstElementChild.innerHTML='Team Ellwangen';
 }
+
+function showFinalQuestion() {
+    let href = "questionFinal.html";
+    window.location.href = href;
+}

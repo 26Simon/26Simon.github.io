@@ -5,6 +5,7 @@ var loginAnswer = '';
 const audioEinloggen = new Audio("./soundtrack/Einloggen.mp3");
 const audioAnswerRight = new Audio("./soundtrack/AntwortRichtig.mp3");
 const audioAnswerWrong = new Audio("./soundtrack/AntwortFalsch.mp3");
+const audioFinalQuestion = new Audio("./soundtrack/Masterfrage.mp3");
 
 function setCurQuestion(question) {
     curQuestion = question;
@@ -21,6 +22,14 @@ function login(Id) {
     loginAnswer = Id;
 
     audioEinloggen.play();
+}
+
+function login3(text) {
+    let element = document.getElementById('solutionQuestion3');
+
+    element.innerHTML = text;
+
+    login('A');
 }
 
 function solve() {
@@ -60,10 +69,30 @@ function getCorrectAnswer(question) {
             return 'Question not defined';
         case 4:
             return 'C';
+        case 5:
+            return 'C';
+        case 6:
+            return 'A';
+        case 7:
+            return 'C';
+        case 8:
+            return 'Question not defined';
+        case 9:
+            return 'Question not defined';
+        case 10:
+            return 'B';
+        case 11:
+            return 'C';
+        case 12:
+            return 'Question not defined';
         default:
             return 'Question not defined';
     }
 
+}
+
+function playFinalAudio() {
+    audioFinalQuestion.play();
 }
 
 function back() {

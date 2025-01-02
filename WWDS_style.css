@@ -31,7 +31,7 @@ body {
 
     background: linear-gradient(180deg, #08669E, #0C2957, #5D378B);
 
-    width: 24%;
+    width: 23%;
     height: 375px;
 }
 
@@ -61,6 +61,26 @@ body {
     box-shadow: 6px 6px 5px -4px #4ADBE1, -6px -6px 5px -4px #4ADBE1, 6px -6px 5px -4px #4ADBE1, -6px 6px 5px -4px #4ADBE1;
     border-radius: 16px;
     margin: 50px 10px;
+    padding: 20px;
+
+    color: white;
+    background: linear-gradient(180deg, #08669E, #0C2957, #5D378B);
+
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial;
+
+    text-align: center;
+    align-content: center;
+
+    height: 250px;
+}
+
+.finalQuestion {
+    border: 2px solid #4ADBE1;
+    box-shadow: 6px 6px 5px -4px #4ADBE1, -6px -6px 5px -4px #4ADBE1, 6px -6px 5px -4px #4ADBE1, -6px 6px 5px -4px #4ADBE1;
+    border-radius: 16px;
+    margin: 450px 10px;
     padding: 20px;
 
     color: white;
