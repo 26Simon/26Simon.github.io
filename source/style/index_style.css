@@ -1,0 +1,37 @@
+/*Allgemein*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+    padding: 10px;
+}
+
+
+.centered{
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    margin: 140px;
+
+    font-size: 45px;
+    font-family: Arial;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zitat{
+    font-size: 35px;
+
+    color: lightgray;
+}
